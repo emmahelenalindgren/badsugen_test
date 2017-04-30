@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Inlämning 6</title>
+	<link href="style.css" rel="stylesheet">
+	<script src="https://unpkg.com/react@latest/dist/react.js">
+	</script>
+	<script src="https://unpkg.com/react-dom@latest/dist/react-dom.js">
+	</script>
+	<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js">
+	</script>
+   
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+</head>
+<body>
+	<div id="app">
+        <header>
+            <h1>Badsugen.se</h1>
+        </header>    
+        
+        <div id="badplatsPage">
+            <div id="badplatsInfo">
+                <h2>Härlanda Tjärn</h2>
+            <div id="badplatsImg">
+           <img src="http://www.bjurfors.se/globalassets/omradesbilder/vastra-gotaland/goteborg/bilder-160524/bjorkekarr_185229-41_web.jpg" id="map" alt="" />
+            </div>
+            <div id="locationInfo">
+                 <span><img src="https://image.flaticon.com/icons/png/512/64/64113.png" alt="" id="locationIcon" /></span><span>2 km</span><span><img src="https://maxcdn.icons8.com/Share/icon/Weather//partly_cloudy_day_filled1600.png" alt="" id="weatherIcon" /></span><span>23°C</span><span>Adress: Härlanda Tjärn 23</span>
+            </div>    
+            </div>
+            <div id="ratingPart">
+            <h3>Ge ditt betyg på den här badplatsen!</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Star_rating_1_of_5.png" alt="" id="starsPart" /><br/>
+                <input type="text" id="kommentarsPart" placeholder="Skriv vad du tycker!" /><br /><button id="sendButton">Skicka!</button>
+            </div>
+             <div id="ratedPart">
+            <h3>Andra betyg på den här badplatsen</h3>
+                <div id="oneRate">
+                                         <span id="rateName">Siv Simring:</span><br/>
+
+                    <img src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-1/p160x160/13256253_10154096534105792_6902039832411105859_n.jpg?oh=9acd6bc9a7a0106d9894006b6eeda781&oe=59911B42" alt="" id="profilePic"/>     
+                     <img src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Star_rating_1_of_5.png" alt="" id="starsPart2" /><br />
+                   <p>"Kanonställe! Vill inte bada någon annanstans, så himla trevligt!"</p></div>
+            </div>
+        </div>
+ 
+
+        
+        
+	</div>
+	
+	<script src="script.jsx" type="text/jsx">
+	</script>
+</body>
+</html>
